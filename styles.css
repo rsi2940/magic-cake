@@ -47,5 +47,20 @@ nav a {
 
 nav li {
   display: inline;
-  padding: 0 10px;
+  /* padding: 0 10px;*/
+}
+.recipes {
+  padding: 0;
+}
+.recipes li {
+  list-style: none;
+  border: 1px solid #b56663;
+  padding-left: 15px;
+}
+.recipes h3 {
+  border-bottom: 0;
+}
+.recipes a {
+  text-decoration: none;
+  color: #7facaa;
 }
