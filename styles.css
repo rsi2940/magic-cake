@@ -14,7 +14,7 @@ a {
 }
 
 body {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 h1 {
@@ -63,4 +63,25 @@ nav li {
 .recipes a {
   text-decoration: none;
   color: #7facaa;
+}
+header {
+  padding: 10px;
+  background-color: #b5666a;
+  /* color: white; 
+  text-align: center; */
+}
+header a,
+header h1 {
+  color: #fff;
+}
+header h1,
+header nav {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 30px auto 0 auto;
+  width: 500px;
 }
