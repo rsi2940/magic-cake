@@ -85,3 +85,14 @@ main {
   margin: 30px auto 0 auto;
   width: 500px;
 }
+.photos {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.photos img {
+  width: 155px;
+  height: auto;
+}
