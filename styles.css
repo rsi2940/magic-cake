@@ -11,18 +11,27 @@ a {
   padding: 0;
   margin: 0;
   border: 0;
+  font-size: 100%;
+  font: inherit;
 }
 
 body {
-  /* padding: 20px; */
+  font-family: Georgia, Helvetica, "Times New Roman", Arial, sans-serif;
+  background: #5f5f5f;
 }
 
 h1 {
+  font-size: 35px;
+  font-weight: bold;
   margin: 10px 0 15px 0;
 }
 
 h2 {
+  color: aqua;
   margin: 10px 0 15px 0;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
 }
 
 h3 {
@@ -34,6 +43,10 @@ h3 {
 ul,
 ol {
   padding-left: 50px;
+}
+nav {
+  padding-top: 10px;
+  text-align: center;
 }
 
 nav ul {
@@ -92,9 +105,12 @@ header nav {
 main {
   padding: 20px;
   border: 1px solid #ddd;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 30px auto;
   width: 500px;
   background: #5f5f5f url(images/greybg1.jpg) top right repeat;
+}
+main p {
+  line-height: 1.8;
 }
 .featured-image {
   /* width: 500px;
@@ -147,6 +163,35 @@ main {
   display: table;
   clear: both;
 } */
-body {
-  background: #5f5f5f url(images/background.jpg) top right repeat;
+/*Suggest page Styles*/
+label,
+input {
+  display: block;
+}
+label {
+  margin-bottom: 10px;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 25px;
+  border: 2px solid #7facca;
+  font-size: 24px;
+  padding: 7px;
+}
+input[type=submit] {
+  width: 240px;
+  font-size: 30px;
+}
+footer {
+  background-color: #b5666a;
+  padding: 10px;
+}
+footer p {
+  color: #aaa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: oblique;
+  text-transform: uppercase;
+  padding-top: 10px;
 }
