@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body,
 h1,
@@ -54,7 +57,7 @@ nav ul {
 }
 
 nav a {
-  color: #0000af;
+  /* color: #0000af; */
   text-decoration: none;
 }
 
@@ -117,6 +120,9 @@ main p {
   height: 300px;
   background: #fff url(images/magic-cake.jpg) top right repeat; */
   position: relative;
+}
+.featured-image img {
+  width: 100%;
 }
 .recipes img {
   /* float: left; */
@@ -181,10 +187,31 @@ input[type=text] {
 input[type=submit] {
   width: 240px;
   font-size: 30px;
+  margin: 5px;
 }
+textarea {
+  width: 100%;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facca;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+input[type=checkbox],
+label[for=newsletter] {
+  display: inline;
+  transform: scale(1.5) translatey(1.5px);
+  padding: 2px;
+}
+
+/* styles for Footer*/
+
 footer {
   background-color: #b5666a;
   padding: 10px;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.3);
 }
 footer p {
   color: #aaa;
